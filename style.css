@@ -1,0 +1,46 @@
+.background {
+    width: 100.6vw;
+    height: 100vh;
+    max-width: 101vw;
+    background-color: #281436;
+}
+/* Header */
+.header {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    font-size: 1.4vw;
+    background-color: #391e60;
+}
+.header_nav {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header a {
+    color: white;
+}
+.header_active {
+    border-bottom: 2px white;
+}
+.header a:hover {
+    opacity: 0.8;
+    color: white;
+}
+.contenido_titulo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    height: 20vh;
+    color: white;
+}
+.form-label {
+    font-size: 1vw;
+}
+.form-select {
+    height: auto;
+}
+button {
+    position: static;
+    width: 24vw;
+}
